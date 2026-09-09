@@ -1,5 +1,5 @@
 import { motion } from "motion/react";
-import { MessageCircle, Scissors, Star, Truck } from "lucide-react";
+import { Heart, MessageCircle, Scissors, Star, Truck } from "lucide-react";
 import heroImg from "@/assets/hero-pets.jpg";
 import { WhatsButton } from "./WhatsButton";
 
