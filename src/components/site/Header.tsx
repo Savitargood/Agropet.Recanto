@@ -1,7 +1,5 @@
 import { useState } from "react";
-import { Heart, PawPrint, Phone, Menu, X, MessageCircle } from "lucide-react";
-import { PHONE_DISPLAY, PHONE_TEL } from "@/lib/site";
-import { WhatsButton } from "./WhatsButton";
+import { Heart, PawPrint, Menu, X } from "lucide-react";
 
 const links = [
   { href: "#inicio", label: "Início" },
