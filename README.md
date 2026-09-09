@@ -10,7 +10,7 @@ O **Agropet Recanto** é um protótipo de landing page e plataforma web desenvol
 
 ## 📽️ Demonstração da Interface
 
-https://github.com/user-attachments/assets/[SEU-VIDEO-AQUI]
+https://github.com/user-attachments/assets/
 
 ### **Recursos do Protótipo:**
 * 🐶 **Catálogo Visual de Ofertas:** Interface pronta para exibição dinâmica de rações e medicamentos.
@@ -24,7 +24,7 @@ https://github.com/user-attachments/assets/[SEU-VIDEO-AQUI]
 
 * **Frontend:** React, TypeScript, Vite
 * **Styling:** Tailwind CSS, Lucide-React
-* **Design/Prototipagem:** Lovable / AI-Driven UI
+* **Design/Prototipagem:** Claude / AI-Driven UI
 
 ---
 
