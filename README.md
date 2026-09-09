@@ -1,25 +1,35 @@
-# 🐾 Agropet Recanto — E-commerce & Landing Page Pet
+# 🐾 Agropet Recanto — Landing Page & Protótipo E-commerce
+
+> ⚠️ **Status do Projeto:** Em desenvolvimento (Protótipo / Demonstração)
 
 ## 📌 Sobre o Projeto
 
-O **Agropet Recanto** é uma landing page e plataforma web focada no setor agropecuário e pet shop local. O projeto foi desenvolvido com foco em alta conversão de clientes, destacando serviços de banho e tosa, farmácia veterinária e venda de rações com navegação otimizada e foco em vendas regionais.
+O **Agropet Recanto** é um protótipo de landing page e plataforma web desenvolvido para o setor agropecuário e pet shop local. O objetivo do projeto é validar uma interface de alta conversão para vendas regionais, com foco em destaque de ofertas de rações, serviços de banho e tosa, e farmácia veterinária.
 
 ---
 
-## 📽️ Demonstração do Projeto
+## 📽️ Demonstração da Interface
 
 https://github.com/user-attachments/assets/[SEU-VIDEO-AQUI]
 
-### **Destaques da Aplicação:**
-* 🐶 **Exibição de Produtos e Ofertas:** Seção de rações e medicamentos com destaques de descontos em tempo real.
-* ✂️ **Agendamento de Serviços:** Módulo visual para apresentação e agendamento de banho e tosa.
-* 📲 **Integração com WhatsApp:** Botões de Ação (CTA) pré-configurados para enviar pedidos diretamente para o atendimento do estabelecimento.
-* 📱 **Layout Mobile-First:** Design 100% responsivo e adaptado para telas de smartphones.
+### **Recursos do Protótipo:**
+* 🐶 **Catálogo Visual de Ofertas:** Interface pronta para exibição dinâmica de rações e medicamentos.
+* ✂️ **Apresentação de Serviços:** Módulo visual para agendamento e tabela de preços de banho e tosa.
+* 📲 **Fluxo de Checkout via WhatsApp:** Botões de CTA projetados para enviar pedidos direto ao atendimento local.
+* 📱 **Design Mobile-First:** Layout totalmente responsivo para navegação em dispositivos móveis.
 
 ---
 
 ## 🛠️ Tech Stack
 
 * **Frontend:** React, TypeScript, Vite
-* **Styling:** Tailwind CSS, Lucide-React (ícones)
-* **Ferramentas de Desenvolvimento:** Lovable / AI-Driven UI
+* **Styling:** Tailwind CSS, Lucide-React
+* **Design/Prototipagem:** Lovable / AI-Driven UI
+
+---
+
+## 💻 Como Rodar a Demonstração Localmente
+
+1. **Clone o repositório:**
+   ```bash
+   git clone [https://github.com/seu-usuario/agropet-recanto.git](https://github.com/seu-usuario/agropet-recanto.git)
