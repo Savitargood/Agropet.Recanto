@@ -16,23 +16,6 @@ export function Header() {
 
   return (
     <header className="sticky top-0 z-50">
-      <div className="bg-primary-dark text-primary-foreground">
-        <div className="mx-auto flex max-w-6xl flex-wrap items-center justify-center gap-x-5 gap-y-1 px-4 py-2 text-xs font-semibold sm:justify-between">
-          <a href={`tel:${PHONE_TEL}`} className="inline-flex items-center gap-2 hover:underline">
-            <Phone className="size-3.5" aria-hidden="true" />
-            {PHONE_DISPLAY}
-          </a>
-          <WhatsButton
-            message="Olá! Vim pelo site da Agropet Recanto e gostaria de atendimento."
-            size="sm"
-            className="px-3 py-1 text-xs"
-          >
-            <MessageCircle className="size-3.5" aria-hidden="true" />
-            Falar no WhatsApp
-          </WhatsButton>
-        </div>
-      </div>
-
       <div className="border-b border-border bg-card/95 backdrop-blur">
         <div className="mx-auto flex max-w-6xl items-center justify-between gap-4 px-4 py-3">
           <a href="#inicio" className="flex items-center gap-2.5">
