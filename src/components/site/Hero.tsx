@@ -1,5 +1,5 @@
 import { motion } from "motion/react";
-import { MessageCircle, Scissors, Star, Truck } from "lucide-react";
+import { Heart, MessageCircle, Scissors, Star, Truck } from "lucide-react";
 import heroImg from "@/assets/hero-pets.jpg";
 import { WhatsButton } from "./WhatsButton";
 
@@ -13,16 +13,24 @@ export function Hero() {
           transition={{ duration: 0.6 }}
           className="text-primary-foreground"
         >
-          <span className="inline-flex items-center gap-2 rounded-full bg-gradient-gold px-4 py-1.5 text-xs font-extrabold text-accent-foreground">
-            <Star className="size-3.5" aria-hidden="true" />
-            Menor preço em rações do Recanto
-          </span>
+          <div className="flex flex-wrap items-center gap-3">
+            <span className="inline-flex items-center gap-2 rounded-full bg-gradient-gold px-4 py-1.5 text-xs font-extrabold text-accent-foreground">
+              <Star className="size-3.5" aria-hidden="true" />
+              Menor preço em rações do Recanto
+            </span>
+            <span className="inline-flex items-center gap-2 rounded-full bg-primary-foreground/15 px-4 py-1.5 text-xs font-extrabold text-primary-foreground backdrop-blur">
+              <Heart className="size-3.5" aria-hidden="true" />
+              Atendimento direto com a dona da loja
+            </span>
+          </div>
           <h1 className="mt-5 text-3xl leading-tight sm:text-4xl lg:text-5xl">
             Tudo o que seu pet precisa com os melhores preços do Recanto!
           </h1>
           <p className="mt-4 max-w-xl text-base/relaxed opacity-90 sm:text-lg">
             Rações premium, farmácia veterinária e banho &amp; tosa com carinho e cuidado que seu
-            melhor amigo merece.
+            melhor amigo merece. Aqui,{" "}
+            <strong className="font-extrabold">você e seu pet são atendidos pessoalmente pela dona</strong>,
+            do primeiro contato à entrega.
           </p>
 
           <div className="mt-7 flex flex-wrap gap-3">
